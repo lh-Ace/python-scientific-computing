@@ -1,14 +1,14 @@
 # Lesson 01.01 — learning journal
 
-**Status:** Not started  
-**Started (date):** Not yet  
-**Commits:** None yet
+**Status:** Needs revision 
+**Started (date):** 10/26/26
+**Commits:** 2
 
 ## Predictions *before running*
 
-1. First line of output: [my prediction]
-2. Second line of output: [my prediction]
-3. Why I expect that: [my words]
+1. First line of output: 9 + 6
+2. Second line of output: 5
+3. Why I expect that: The first is a string literal, while the second is an expression
 
 ## Experiments and observations
 
@@ -23,16 +23,16 @@
 
 ## Terms I can now explain
 
-- Source file:
-- Terminal:
-- `uv`:
-- Python interpreter:
-- Expression:
-- `print` and output:
+- Source file: File containing the Python code
+- Terminal: Interface for commands and output
+- `uv`: Tool for managing and launching Python
+- Python interpreter: Software that executes Python
+- Expression: Something within a function to be executed or operated on
+- `print` and output: print() function outputs into terminal
 
 ## What confused me, and how I resolved it
 
-[Honest notes]
+Understanding the exact terminoloy of functions, resolved by going over them
 
 ## Evidence and review
 
