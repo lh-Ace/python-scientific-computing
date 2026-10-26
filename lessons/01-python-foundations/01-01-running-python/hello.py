@@ -22,6 +22,7 @@ print(6 + 9)
 print(6 * 9)
 # Expected: 54
 
-# Total Expected: 9 + 6, 5, Scientific Python: my first program, 15, 54
-
 print(10 - 4)
+# Expected: 6
+
+# Total Expected: 9 + 6, 5, Scientific Python: my first program, 15, 54, 6

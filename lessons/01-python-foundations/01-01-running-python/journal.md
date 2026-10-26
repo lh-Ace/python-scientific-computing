@@ -1,8 +1,8 @@
 # Lesson 01.01 — learning journal
 
-**Status:** Finished  
+**Status:** Needs revision 
 **Started (date):** 10/26/26
-**Commits:** 1
+**Commits:** 2
 
 ## Predictions *before running*
 
@@ -23,8 +23,8 @@
 
 ## Terms I can now explain
 
-- Source file:
-- Terminal: File containing the Python code
+- Source file: File containing the Python code
+- Terminal: Interface for commands and output
 - `uv`: Tool for managing and launching Python
 - Python interpreter: Software that executes Python
 - Expression: Something within a function to be executed or operated on
@@ -32,7 +32,7 @@
 
 ## What confused me, and how I resolved it
 
-[Honest notes]
+Understanding the exact terminoloy of functions, resolved by going over them
 
 ## Evidence and review
 
