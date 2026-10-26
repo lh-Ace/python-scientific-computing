@@ -1,0 +1,10 @@
+[project]
+name = "python-scientific-computing"
+version = "0.1.0"
+description = "A beginner-to-advanced scientific Python learning course"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = []
+
+# No package build-backend or scientific dependencies yet.
+# The learner will encounter packaging and numerical libraries after prerequisites.
