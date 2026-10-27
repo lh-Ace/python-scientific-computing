@@ -50,7 +50,7 @@ Returns the type assigned to the variable or expression
 
 **Regular division versus floor division:**
 
-Division includes the decimal/fraction value, floor division returns the closest whole number lower than the true value
+Division includes the decimal/fraction value, floor division returns the closest whole number lower than the true value. The floor division floors the quotient
 
 **Modulo and the division identity:**
 
@@ -74,7 +74,7 @@ Parantheses, exponentiation, multiplication/division, addition/subtraction (PEMD
 
 **Floating-point rounding error:**
 
-The floating point will never be exact, so a small bit remains
+The floating point will never be exact for most, so a small bit remains. Only for some (those that are squares of 2 such as 1/2, 1/4, and 1/8) are exact.
 
 ## 4. Mathematical and computational reasoning
 
@@ -200,7 +200,7 @@ uv run python -m unittest discover -s tests -v
 
 **Actual test result:**
 
-[Record test count, pass/fail status, and any errors. If zero tests ran, state that.]
+1 test run, 1 passed — bootstrap test
 
 ## 10. Git and review evidence
 
