@@ -1,6 +1,6 @@
 # Lesson 01.01 — learning journal
 
-**Status:** Needs revision 
+**Status:** Finished
 **Started (date):** 10/26/26
 **Commits:** 2
 
