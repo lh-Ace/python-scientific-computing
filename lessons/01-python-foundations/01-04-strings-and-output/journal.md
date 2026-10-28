@@ -24,7 +24,7 @@ Using \t and \n includes the space already in it
 
 **Programs executed:** strings.py, receipt_lab.py, output_format.py
 
-**Tests:** [Results]
+**Tests:** uv run python -m unittest discover -s tests -v
 
 **What I can now explain:**
 

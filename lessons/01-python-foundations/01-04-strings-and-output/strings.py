@@ -28,4 +28,4 @@ print("Instructor:", instructor)
 
 print("Course: \"Linear Algebra\"")
 print("Instructor", instructor, sep=": ")
-print("Topics: \n\tVectors\n\t Matrices")
+print("Topics: \n\tVectors\n\tMatrices")
