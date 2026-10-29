@@ -6,7 +6,7 @@
 
 What did I predict about a comparison or conditional expression?
 
-If you use and/or, 'and' forces all to be true, while 'or' allows only one to be true.
+If you use and/or, 'and' forces all to be true, while 'or' needs only one to be true.
 
 ## 2. Important observation
 
