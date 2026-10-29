@@ -6,7 +6,7 @@
 
 What did I predict about a comparison or conditional expression?
 
-If you use and/or, and forces all to be true, while or allows only one to be true.
+If you use and/or, 'and' forces all to be true, while 'or' allows only one to be true.
 
 ## 2. Important observation
 
@@ -18,7 +18,7 @@ They operated correctly as exclusive or inclusive
 
 What surprised me, caused an error, or changed my understanding?
 
-The syntax between Python and C++ is very similar, it's just that Python actually uses words for **, ||, and !
+The syntax between Python and C++ is very similar, it's just that Python actually uses words for &&, ||, and !
 
 ## 4. Final verification
 
