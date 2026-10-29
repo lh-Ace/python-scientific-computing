@@ -24,11 +24,9 @@ The syntax between Python and C++ is very similar, it's just that Python actuall
 
 **Programs executed:** comparisons.py, conditionals.py, and sensor_lab.py
 
-**Tests:** [Actual results]
+**Tests:** uv run python -m unittest discover -s tests -v
 
 **What I can now explain:**
-
-[Two or three sentences explaining comparisons, Boolean logic, or conditional execution.]
 
 Comparisons work on 'and', 'or', and 'not'. Boolean logic works on True and False statements. Conditional execution currently works currently on if/elif/else statements.
 
