@@ -16,7 +16,7 @@ Functions do not need a return value, the function will just return 'None'.
 
 ## 4. Final verification
 
-**Programs executed:** cooling_functions.py, scope_experiments.py, functions.basics.py
+**Programs executed:** cooling_functions.py, scope_experiments.py, functions_basics.py
 
 **Tests:** uv run python -m unittest discover -s tests -v
 

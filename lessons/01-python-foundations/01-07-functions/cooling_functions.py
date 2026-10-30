@@ -41,7 +41,5 @@ steps = 6
 final_temperature = simulate_cooling(initial_temperature, ambient_temperature, cooling_fraction, steps)
 print(f"Case 4: {final_temperature:.2f}")
 
-steps = 0
-
 final_temperature = cooling_step(80, 20, 0.2)
 print(f"Case 5: {final_temperature:.2f}")
