@@ -18,10 +18,10 @@ for number in range(2, 11, 2):
     count += 1
     sum_of_squares += number ** 2
     
-    print(f"Count: {count}")
+    print(f"Nmber: {number}")
     print(f"Sum: {total}")
 
-print(f"Final count: {total}")
+print(f"Final count: {count}")
 print(f"Sum of squares: {sum_of_squares}")
 print(f"Arithmetic mean: {total / count:.1f}")
 
