@@ -22,7 +22,7 @@ What suprised me was after creating the lab, it was essentially an approximation
 
 ## 4. Final verification
 
-**Programs executed:** [File names]
+**Programs executed:** while_loops.py, for_loops.py, iteration_lab.py
 
 **Tests:** uv run python -m unittest discover -s tests -v
 
