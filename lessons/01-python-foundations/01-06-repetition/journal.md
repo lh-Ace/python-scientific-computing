@@ -12,7 +12,7 @@ That using range(1, n) would give n loops.
 
 What actually happened?
 
-It executs ON n, so it loops a total of n - 1.
+It executes before, so it loops a total of n - 1.
 
 ## 3. Mistake or new understanding
 
