@@ -22,6 +22,6 @@ Functions do not need a return value, the function will just return 'None'.
 
 **What I can now explain:**
 
-Functions must go in ascending order of call. Return values are not needed and can return None. Scope forces the values to either be returned or they will not be passed by reference or value.
+The function name must be defined and accessible when Python executes the call. Function definitions don't need to appear in a particular conceptual order. Return values are not needed and can return None. Scope forces the values to either be returned or they will not be passed by reference or value.
 
 **Final status:** Pending instructor review

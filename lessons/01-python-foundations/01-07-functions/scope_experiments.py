@@ -27,3 +27,6 @@ result = scale_measurement(4, 3)
 
 print(f"Result: {result}")
 print(result + 1)
+
+print(scale_measurement(5))
+print(scale_measurement(4, -1))
