@@ -18,7 +18,7 @@ for number in range(2, 11, 2):
     count += 1
     sum_of_squares += number ** 2
     
-    print(f"Nmber: {number}")
+    print(f"Number: {number}")
     print(f"Sum: {total}")
 
 print(f"Final count: {count}")
