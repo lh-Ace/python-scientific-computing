@@ -22,8 +22,8 @@ conditions = {
     "steps" : 6
 }
 
-final_temperature = []
-final_temperature.append(simulate_trajectory(
+trajectories = []
+trajectories.append(simulate_trajectory(
     conditions["initial_temperature"], 
     conditions["ambient_temperature"], 
     conditions["cooling_fraction"], 
@@ -31,14 +31,14 @@ final_temperature.append(simulate_trajectory(
     ))
 
 mean = 0
-for temperature in final_temperature[0]:
+for temperature in trajectories[0]:
     mean += temperature
 
-mean /= len(final_temperature[0])
+mean /= len(trajectories[0])
 print(mean)
 
 conditions["initial_temperature"] = 10
-final_temperature.append(simulate_trajectory(
+trajectories.append(simulate_trajectory(
     conditions["initial_temperature"], 
     conditions["ambient_temperature"], 
     conditions["cooling_fraction"], 
@@ -47,7 +47,7 @@ final_temperature.append(simulate_trajectory(
 conditions["initial_temperature"] = 80
 
 conditions["steps"] = 0
-final_temperature.append(simulate_trajectory(
+trajectories.append(simulate_trajectory(
     conditions["initial_temperature"], 
     conditions["ambient_temperature"], 
     conditions["cooling_fraction"], 
@@ -56,7 +56,7 @@ final_temperature.append(simulate_trajectory(
 conditions["steps"] = 3
 
 conditions["cooling_fraction"] = 0
-final_temperature.append(simulate_trajectory(
+trajectories.append(simulate_trajectory(
     conditions["initial_temperature"], 
     conditions["ambient_temperature"], 
     conditions["cooling_fraction"], 
@@ -64,7 +64,7 @@ final_temperature.append(simulate_trajectory(
     ))
 conditions["cooling_fraction"] = 0.2
 
-for trajectory in final_temperature:
+for trajectory in trajectories:
     print(trajectory)
     print(len(trajectory))
     print(trajectory[0])
