@@ -22,6 +22,6 @@ The difference between a list, dictionary, and set
 
 **What I can now explain:**
 
-Lists are more for repetitive data, and can hold other lists inside them. Dictionaries work on a 'key : value' system, and can hold lists inside them as well. Sets are for non-ordered, infdividual sets of data. Tuples are fixed lists that cannot be altered once made.
+Lists are more for repetitive data, and can hold other lists inside them. Dictionaries work on a 'key : value' system, and can hold lists inside them as well. Sets are for non-ordered, infdividual sets of data. Tuples are immutable sequences that cannot be altered once made.
 
 **Final status:** Pending instructor review
